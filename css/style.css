@@ -1,0 +1,288 @@
+body {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    background-color: rgba(225, 238, 251, 0.3);
+    font-size: 14px;
+}
+
+.content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background-color: #E1EEFB;
+    padding: 35px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.navigation-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+li a {
+    color: #2B7BC6;
+    text-decoration: none;
+}
+
+.haupt-block {
+
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000;
+    padding-top: 10px;
+    margin: 0 0 20px 550px;
+}
+
+.info-P p {
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    margin-top: 0;
+}
+
+.info-P {
+    background-color: #3BB9B8;
+    margin-left: 100px;
+    padding: 50px 40px 50px 450px;
+}
+
+.haupt-foto {
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.benefits {
+    background-color: white;
+    padding-top: 25px;
+
+}
+
+.benefit {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h4 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin-left: 90px;
+}
+
+.foto-benefits-1 h4 {
+    margin-top: auto;
+}
+
+.foto-benefits-2 h4 {
+    margin-top: auto;
+}
+
+div .foto-benefits-1 {
+    background-image: url(../images/ic-1.png);
+    background-repeat: no-repeat;
+
+
+}
+
+div .foto-benefits-2 {
+    background-image: url(../images/ic-2.png);
+    background-repeat: no-repeat;
+
+
+}
+
+div .foto-benefits-3 {
+    background-image: url(../images/ic-3.png);
+    background-repeat: no-repeat;
+
+}
+
+div .foto-benefits-4 {
+    background-image: url(../images/ic-4.png);
+    background-repeat: no-repeat;
+
+}
+
+.collection {
+    margin-bottom: 100px;
+    padding-top: 60px;
+}
+
+.title-block {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 0 20px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 48.5%;
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.item-info {
+    position: absolute;
+    left: 25px;
+    bottom: 35px;
+    color: #fff;
+}
+
+.item-info span {
+    background: rgba(59, 185, 184, 0.8);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+
+.item-info strong {
+    display: block;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.stocks {
+    margin-bottom: 100px;
+}
+
+.aktions {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aktion {
+    position: relative;
+    border: 10px solid white;
+    box-sizing: border-box;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.percent {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    background-color: #EA1649;
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    padding: 5px 20px;
+}
+
+.description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    flex-grow: 1;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.basket {
+    background-color: white;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #2B7BC6;
+    border: 2px solid #2B7BC6;
+    border-radius: 4px;
+    margin: 0 13px 25px auto;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+.aktion img {
+    display: block;
+}
+
+footer {
+    background-color: white;
+    padding-top: 18px;
+    padding-bottom: 22px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #99A3A9;
+}
+
+.tel {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 40px;
+}
+
+a h5 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #1061AB;
+}
+
+.footer-text a {
+    text-decoration: none;
+}
